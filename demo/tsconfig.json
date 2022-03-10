@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "sourceMap": true,
+    "target": "es5",
+	"allowJs": true,
+	"rootDir": "./src/",
+	"outDir": "./public/",
+	"strict": true,
+	"noImplicitAny": true,
+	"strictNullChecks": true,
+	"moduleResolution": "node",
+	"esModuleInterop": true,
+  },
+  "include": [
+    "./src/*.ts",
+    "src/@types/global.d.ts"
+  ],
+  "exclude": [
+    "./node_modules/"
+  ]
+}
