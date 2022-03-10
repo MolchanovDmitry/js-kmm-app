@@ -6,5 +6,5 @@ pluginManagement {
     }
 }
 
-rootProject.name = "NutPlayer"
+rootProject.name = "common"
 include(":shared")

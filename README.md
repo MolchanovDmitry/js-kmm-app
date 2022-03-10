@@ -1,10 +1,10 @@
 # JavaScript-KMM-Application
 
-// 1
-cd demo
-npm install
-npm link ../NutPlayer/build/js/packages/NutPlayer-shared
-npm run build
+How to reproduce the error:
 
-// 2
-// open in browser public/index.html
+1. cd common
+2. ./gradlew build
+3. cd ../demo
+4. npm install
+5. npm link ../common/build/js/packages/common-shared
+6. npm run build

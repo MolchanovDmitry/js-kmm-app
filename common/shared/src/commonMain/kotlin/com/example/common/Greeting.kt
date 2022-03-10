@@ -1,4 +1,4 @@
-package com.example.nutplayer
+package com.example.common
 
 import kotlin.js.ExperimentalJsExport
 

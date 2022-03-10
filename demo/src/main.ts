@@ -1,4 +1,4 @@
-import Greeting from "NutPlayer-shared"
+import Greeting from "common-shared"
 
 // Waiting for loading DOM document.
 function onDReady() {
